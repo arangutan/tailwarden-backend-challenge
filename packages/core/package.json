@@ -1,0 +1,17 @@
+{
+  "name": "@tailwarden-backend-challenge/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "sst": "^2.4.0",
+    "vitest": "^0.29.8"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.306.0"
+  }
+}
